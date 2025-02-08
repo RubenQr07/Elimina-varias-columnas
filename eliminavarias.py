@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Título de la app
-st.title("Eliminar columnas de un DataFrame")
+st.title("Elimina columnas de un DataFrame")
 
 # Subir archivo CSV
 uploaded_file = st.file_uploader("Carga un archivo CSV", type=["csv"])
